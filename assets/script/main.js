@@ -5,7 +5,5 @@ console.log(cognome);
 let colore = prompt("Inserisci il tuo colore preferito");
 console.log(colore);
 
-let password = nome+cognome+colore+23;
-
 document.getElementById("display").innerHTML = nome+cognome+colore+23;
 
